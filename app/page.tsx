@@ -30,7 +30,7 @@ export default function Page() {
           <div>
             <div className="flex justify-between items-start">
               <div className="font-semibold">FreshX | Data Science Intern</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">January 2025 - Present</div>
+              <div className="text-neutral-600 dark:text-neutral-400 text-sm">January 2025 - May 2025</div>
             </div>
             <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
               <li>Built and optimized commodity price forecasting models using NeuralProphet, enhancing accuracy through feature engineering and integration of external data (e.g., weather as lagged regressors)</li>
@@ -73,50 +73,96 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Projects Section */}
+      {/* Featured Projects Section */}
       <div className="my-8">
         <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
-        <div className="space-y-4">
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="font-semibold text-lg">SpotVisit</h3>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400">Travel planning and spot organization platform</p>
+        <div className="space-y-6">
+          {/* SpotVisit */}
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div className="flex items-start justify-between">
+              <div className="space-y-3 flex-1">
+                <div className="flex items-center space-x-2">
+                  <h3 className="font-semibold text-xl">SpotVisit</h3>
+                  <span className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full">Full Stack</span>
+                </div>
+                <p className="text-neutral-600 dark:text-neutral-400">
+                  Travel planning and spot organization platform with interactive maps, spot management, and trip planning capabilities.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Next.js</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">React</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Maps API</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Geolocation</span>
+                </div>
               </div>
               <a 
                 href="https://explorer-blue-three.vercel.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
+                className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
               >
-                View Project →
+                Live Demo →
               </a>
             </div>
           </div>
-          
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
-            <div className="flex items-center justify-between">
-              <div>
-                <h3 className="font-semibold text-lg">Uncover</h3>
-                <p className="text-sm text-neutral-600 dark:text-neutral-400">AI-powered cognitive analysis tool</p>
+
+          {/* Uncover */}
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div className="flex items-start justify-between">
+              <div className="space-y-3 flex-1">
+                <div className="flex items-center space-x-2">
+                  <h3 className="font-semibold text-xl">Uncover</h3>
+                  <span className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs px-2 py-1 rounded-full">AI/ML</span>
+                </div>
+                <p className="text-neutral-600 dark:text-neutral-400">
+                  AI-powered cognitive analysis tool that helps understand thinking patterns through journaling and provides personalized insights.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">AI Analysis</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">NLP</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Cognitive Therapy</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">UX Design</span>
+                </div>
               </div>
               <a 
                 href="https://thoughtpatterns.vercel.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
+                className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
               >
-                View Project →
+                Live Demo →
               </a>
             </div>
           </div>
+
+          {/* MusiCal */}
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+            <div className="flex items-start justify-between">
+              <div className="space-y-3 flex-1">
+                <div className="flex items-center space-x-2">
+                  <h3 className="font-semibold text-xl">MusiCal</h3>
+                  <span className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs px-2 py-1 rounded-full">Full Stack</span>
+                </div>
+                <p className="text-neutral-600 dark:text-neutral-400">
+                  Full-stack music discovery web app with Spotify API integration, user authentication, and personalized experiences.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs">
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Python</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Flask</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">React</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Spotify API</span>
+                  <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Firebase</span>
+                </div>
+              </div>
+            </div>
+          </div>
           
-          <div className="text-center">
+          <div className="text-center pt-4">
             <a 
               href="/projects" 
-              className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline font-medium"
+              className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline font-medium text-lg"
             >
-              View All Projects →
+              View All Projects by Category →
             </a>
           </div>
         </div>
