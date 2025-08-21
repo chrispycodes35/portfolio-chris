@@ -6,7 +6,7 @@ export default function Page() {
         <h1 className="text-4xl font-bold tracking-tight">Christopher O. Lopez</h1>
         <div className="text-neutral-600 dark:text-neutral-400 space-y-1">
           <p>Berkeley, CA 94720 | chris.osw.lopez@berkeley.edu</p>
-          <p>github.com/chrispycodes35 | (669) 327-1034</p>
+          <p><a href="https://github.com/chrispycodes35">github.com/chrispycodes35</a> | (669) 327-1034</p>
         </div>
       </div>
 

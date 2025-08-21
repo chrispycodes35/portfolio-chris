@@ -1,3 +1,5 @@
+import React from 'react'
+
 export const metadata = {
   title: 'Projects',
   description: 'Explore Christopher O. Lopez\'s projects organized by category: Full Stack, ML/AI, Data Engineering, and more.',

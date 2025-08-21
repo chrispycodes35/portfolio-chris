@@ -1,25 +1,35 @@
 import { baseUrl } from 'app/sitemap'
-import { getBlogPosts } from 'app/blog/utils'
 
 export async function GET() {
-  let allBlogs = await getBlogPosts()
+  const projects = [
+    {
+      title: 'SpotVisit - Travel Planning Platform',
+      link: `${baseUrl}/projects`,
+      description: 'Travel planning and spot organization platform with interactive maps',
+      pubDate: new Date().toUTCString()
+    },
+    {
+      title: 'Uncover - AI Cognitive Analysis',
+      link: `${baseUrl}/projects`,
+      description: 'AI-powered cognitive analysis tool for mental wellness',
+      pubDate: new Date().toUTCString()
+    },
+    {
+      title: 'MusiCal - Music Discovery App',
+      link: `${baseUrl}/projects`,
+      description: 'Full-stack music discovery web app with Spotify API integration',
+      pubDate: new Date().toUTCString()
+    }
+  ]
 
-  const itemsXml = allBlogs
-    .sort((a, b) => {
-      if (new Date(a.metadata.publishedAt) > new Date(b.metadata.publishedAt)) {
-        return -1
-      }
-      return 1
-    })
+  const itemsXml = projects
     .map(
-      (post) =>
+      (project) =>
         `<item>
-          <title>${post.metadata.title}</title>
-          <link>${baseUrl}/blog/${post.slug}</link>
-          <description>${post.metadata.summary || ''}</description>
-          <pubDate>${new Date(
-            post.metadata.publishedAt
-          ).toUTCString()}</pubDate>
+          <title>${project.title}</title>
+          <link>${project.link}</link>
+          <description>${project.description}</description>
+          <pubDate>${project.pubDate}</pubDate>
         </item>`
     )
     .join('\n')
@@ -27,9 +37,9 @@ export async function GET() {
   const rssFeed = `<?xml version="1.0" encoding="UTF-8" ?>
   <rss version="2.0">
     <channel>
-        <title>My Portfolio</title>
+        <title>Christopher O. Lopez - Portfolio</title>
         <link>${baseUrl}</link>
-        <description>This is my portfolio RSS feed</description>
+        <description>Portfolio of Christopher O. Lopez - Data Science & Full Stack Development</description>
         ${itemsXml}
     </channel>
   </rss>`
