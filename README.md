@@ -1,42 +1,53 @@
-# Portfolio Blog Starter
+# Christopher O. Lopez - Portfolio
 
-This is a porfolio site template complete with a blog. Includes:
+This is Christopher O. Lopez's personal portfolio website built with Next.js. The site showcases his work experience, projects, and skills in data science, machine learning, and full-stack development.
 
-- MDX and Markdown support
-- Optimized for SEO (sitemap, robots, JSON-LD schema)
+## About
+
+Christopher is a Data Science & Cognitive Science student at UC Berkeley, expected to graduate in May 2026. He has experience in:
+- Data Science and Machine Learning
+- Full-stack web development
+- Data analysis and visualization
+- Teaching programming fundamentals
+
+## Features
+
+- Professional portfolio layout
+- Blog section with MDX support
+- Responsive design with Tailwind CSS
+- SEO optimized with sitemap and robots.txt
 - RSS Feed
 - Dynamic OG images
-- Syntax highlighting
-- Tailwind v4
-- Vercel Speed Insights / Web Analytics
-- Geist font
+- Syntax highlighting for code snippets
 
-## Demo
+## Technologies Used
 
-https://portfolio-blog-starter.vercel.app
+- Next.js 14 (App Router)
+- TypeScript
+- Tailwind CSS
+- MDX for blog posts
+- Vercel for deployment
 
-## How to Use
+## Contact
 
-You can choose from one of the following two methods to use this repository:
+- **Email:** chris.osw.lopez@berkeley.edu
+- **GitHub:** [github.com/chrispycodes35](https://github.com/chrispycodes35)
+- **Phone:** (669) 327-1034
+- **Location:** Berkeley, CA 94720
 
-### One-Click Deploy
+## Development
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/solutions/blog&project-name=blog&repository-name=blog)
-
-### Clone and Deploy
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [pnpm](https://pnpm.io/installation) to bootstrap the example:
+To run this project locally:
 
 ```bash
-pnpm create next-app --example https://github.com/vercel/examples/tree/main/solutions/blog blog
-```
+# Install dependencies
+pnpm install
 
-Then, run Next.js in development mode:
-
-```bash
+# Run development server
 pnpm dev
+
+# Build for production
+pnpm build
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/templates) ([Documentation](https://nextjs.org/docs/app/building-your-application/deploying)).
+The site will be available at [http://localhost:3000](http://localhost:3000).
