@@ -1,5 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
-
 export default function Page() {
   return (
     <section className="space-y-8">
@@ -63,63 +61,6 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Projects */}
-      <div>
-        <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">PROJECTS</h2>
-        <div className="space-y-6">
-          <div>
-            <div className="flex justify-between items-start">
-              <div className="font-semibold">MusiCal | Project Manager / Developer</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">September 2024 - Dec 2024</div>
-            </div>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Built a full-stack music discovery web app using Python, Flask, React, and Tailwind CSS, and prototyping with Figma; integrated Spotify API and Firebase for real-time data, secure user sessions, and personalized experiences</li>
-              <li>Led a 12-person team, overseeing UI design, backend architecture, and deployment of a functional prototype</li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="flex justify-between items-start">
-              <div className="font-semibold">Spam/Ham Classification | Python</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">December 2024</div>
-            </div>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Developed a logistic regression model for spam classification with 89% training accuracy, using feature engineering, NLP techniques to analyze email text, and PCA for dimensionality reduction</li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="flex justify-between items-start">
-              <div className="font-semibold">Cook County Housing Project | Python</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">November 2024</div>
-            </div>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Developed a linear regression model using Pandas, NumPy, and Scikit-learn to predict housing prices. Created data visualizations to gain insight into the cause of disparities in property taxes between socioeconomic groups</li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="flex justify-between items-start">
-              <div className="font-semibold">Wordnet (Google Ngram) | Java</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">October 2023</div>
-            </div>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Developed a Java-based visualization tool for tracking word usage trends over decades in the Google Ngram dataset; introduced an innovative feature for analyzing hyponyms</li>
-            </ul>
-          </div>
-
-          <div>
-            <div className="flex justify-between items-start">
-              <div className="font-semibold">PyTorch for Image Classification | Python</div>
-              <div className="text-neutral-600 dark:text-neutral-400 text-sm">February 2023</div>
-            </div>
-            <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-              <li>Gained exposure to PyTorch fundamentals through implementing neural network training workflows, learning about tensors, autograd, and model-building abstractions for image classification tasks (MNIST handwritten dataset).</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       {/* Skills & Interests */}
       <div>
         <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">SKILLS & INTERESTS</h2>
@@ -132,10 +73,53 @@ export default function Page() {
         </div>
       </div>
 
-      {/* Blog Section */}
+      {/* Projects Section */}
       <div className="my-8">
-        <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">Blog Posts</h2>
-        <BlogPosts />
+        <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
+        <div className="space-y-4">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-lg">SpotVisit</h3>
+                <p className="text-sm text-neutral-600 dark:text-neutral-400">Travel planning and spot organization platform</p>
+              </div>
+              <a 
+                href="https://explorer-blue-three.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+          
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-4 hover:shadow-md transition-shadow">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="font-semibold text-lg">Uncover</h3>
+                <p className="text-sm text-neutral-600 dark:text-neutral-400">AI-powered cognitive analysis tool</p>
+              </div>
+              <a 
+                href="https://thoughtpatterns.vercel.app" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline text-sm font-medium"
+              >
+                View Project →
+              </a>
+            </div>
+          </div>
+          
+          <div className="text-center">
+            <a 
+              href="/projects" 
+              className="inline-flex items-center text-blue-600 dark:text-blue-400 hover:underline font-medium"
+            >
+              View All Projects →
+            </a>
+          </div>
+        </div>
       </div>
     </section>
   )
