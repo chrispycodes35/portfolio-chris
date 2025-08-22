@@ -16,7 +16,7 @@ export default function Page() {
         <div className="space-y-2">
           <div className="font-semibold">UNIVERSITY OF CALIFORNIA, BERKELEY</div>
           <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div>
-          <div className="font-medium">Major: Data Science & Cognitive Science</div>
+          <div className="font-medium">Majors: Data Science, Cognitive Science</div>
           <div className="text-sm text-neutral-600 dark:text-neutral-400">
             Relevant Coursework: Principles & Techniques of Data Science, Contexts & Ethics of Data, Artificial Intelligence, Data Structures and Algorithms, Linear Algebra, Discrete Math, and Probability for Data Science
           </div>
