@@ -16,8 +16,7 @@ Hi, I'm a Data Science & Cognitive Science student at UC Berkeley, expected to g
 
 - **Email:** chris.osw.lopez@berkeley.edu
 - **GitHub:** [github.com/chrispycodes35](https://github.com/chrispycodes35)
-- **Phone:** (669) 327-1034
-- **Location:** Berkeley, CA 94720
+- **Location:** Berkeley, CA 94704
 
 ## Development
 
