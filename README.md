@@ -1,24 +1,8 @@
 # Christopher O. Lopez - Portfolio
 
-This is Christopher O. Lopez's personal portfolio website built with Next.js. The site showcases his work experience, projects, and skills in data science, machine learning, and full-stack development.
-
 ## About
 
-Christopher is a Data Science & Cognitive Science student at UC Berkeley, expected to graduate in May 2026. He has experience in:
-- Data Science and Machine Learning
-- Full-stack web development
-- Data analysis and visualization
-- Teaching programming fundamentals
-
-## Features
-
-- Professional portfolio layout
-- Blog section with MDX support
-- Responsive design with Tailwind CSS
-- SEO optimized with sitemap and robots.txt
-- RSS Feed
-- Dynamic OG images
-- Syntax highlighting for code snippets
+Hi, I'm a Data Science & Cognitive Science student at UC Berkeley, expected to graduate in May 2026. I am eager to learn and grow.
 
 ## Technologies Used
 
