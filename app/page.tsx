@@ -125,7 +125,7 @@ export default function Page() {
                 </div>
               </div>
               <a 
-                href="https://thoughtpatterns.vercel.app" 
+                href="https://uncover-25f167a1.base44.app" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
@@ -146,6 +146,14 @@ export default function Page() {
                 <p className="text-neutral-600 dark:text-neutral-400">
                   Full-stack music discovery web app with Spotify API integration, user authentication, and personalized experiences.
                 </p>
+                <a 
+                  href="https://www.loom.com/share/35a9dfa14eb94efd806c78ab41f2abc7?sid=29d69594-7328-4961-9182-aebb653bb04a" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
+                >
+                  Video Demo →
+                </a>
                 <div className="flex flex-wrap gap-2 text-xs">
                   <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Python</span>
                   <span className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded">Flask</span>

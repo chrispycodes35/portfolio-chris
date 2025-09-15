@@ -59,6 +59,14 @@ export default function Page() {
               <p className="text-neutral-600 dark:text-neutral-400">
                 Full-stack music discovery web app with Spotify API integration, user authentication, and personalized experiences.
               </p>
+              <a 
+                href="https://www.loom.com/share/35a9dfa14eb94efd806c78ab41f2abc7?sid=57d4ae01-dd9e-49bd-b7c6-844160efc04a" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline font-medium text-sm"
+              >
+                Video Demo →
+              </a>
               <div className="space-y-2">
                 <h4 className="font-medium text-neutral-800 dark:text-neutral-200">Key Features:</h4>
                 <ul className="space-y-1 text-sm text-neutral-600 dark:text-neutral-400">
@@ -245,6 +253,14 @@ export default function Page() {
           <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">NumisToken Marketplace UX</h3>
+              <a 
+                href="https://www.loom.com/share/9300e25eb2424159a12e7e71513898c0?sid=d8c40de1-c923-4042-9d0f-c8bdf8be0614" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 dark:text-blue-400 hover:underline font-medium text-sm"
+              >
+                Video Demo →
+              </a>
               <p className="text-neutral-600 dark:text-neutral-400">
                 Designed and engineered UI prototypes for an online marketplace using Figma, focusing on functionality and consistency across platforms.
               </p>
