@@ -101,7 +101,7 @@ export default function Page() {
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">Uncover</h3>
                 <a 
-                  href="https://thoughtpatterns.vercel.app" 
+                  href="https://uncover-25f167a1.base44.app" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-blue-600 dark:text-blue-400 hover:underline font-medium text-sm"
