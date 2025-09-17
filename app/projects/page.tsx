@@ -1,4 +1,5 @@
 import React from 'react'
+import ParticlesWrapper from './ParticlesWrapper'
 
 export const metadata = {
   title: 'Projects',
@@ -7,7 +8,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <section className="space-y-8">
+    <section className="relative space-y-8">
+      <ParticlesWrapper />
       <h1 className="font-semibold text-3xl mb-8 tracking-tight">Projects by Category</h1>
       
       {/* Full Stack Development */}
@@ -18,7 +20,7 @@ export default function Page() {
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {/* SpotVisit */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">SpotVisit</h3>
@@ -54,7 +56,7 @@ export default function Page() {
 
           {/* MusiCal */}
           
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">MusiCal</h3>
@@ -100,7 +102,7 @@ export default function Page() {
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {/* Uncover */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">Uncover</h3>
@@ -135,7 +137,7 @@ export default function Page() {
           </div>
 
           {/* Spam/Ham Classification */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Spam/Ham Classification</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
@@ -160,7 +162,7 @@ export default function Page() {
           </div>
 
           {/* PyTorch Image Classification */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">PyTorch Image Classification</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
@@ -194,7 +196,7 @@ export default function Page() {
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {/* Cook County Housing Project */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Cook County Housing Project</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
@@ -220,7 +222,7 @@ export default function Page() {
           </div>
 
           {/* Wordnet Google Ngram */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <h3 className="text-xl font-semibold">Wordnet (Google Ngram)</h3>
               <p className="text-neutral-600 dark:text-neutral-400">
@@ -254,7 +256,7 @@ export default function Page() {
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
           {/* NumisToken UX Work */}
-          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-md transition-shadow">
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
             <div className="space-y-4">
               <div className="flex items-center justify-between">
                 <h3 className="text-xl font-semibold">NumisToken Marketplace UX</h3>
