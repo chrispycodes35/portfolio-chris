@@ -289,6 +289,41 @@ export default function Page() {
               </div>
             </div>
           </div>
+
+          {/* Bear Market - Design Project */}
+          <div className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300 hover:bg-neutral-50/60 dark:hover:bg-neutral-800/40">
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-semibold">Bear Market</h3>
+                <a 
+                  href="https://youtu.be/F7JLPdgXU5U" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-blue-600 dark:text-blue-400 hover:underline font-medium text-sm"
+                >
+                  Video Demo →
+                </a>
+              </div>
+              <p className="text-neutral-600 dark:text-neutral-400">
+                Design-focused team project building a safer, student-verified marketplace for UC Berkeley. Collaborated in a team of four to research, ideate, prototype, and test an e-commerce platform tailored to college move-in/out needs.
+              </p>
+              <div className="space-y-2">
+                <h4 className="font-medium text-neutral-800 dark:text-neutral-200">Highlights:</h4>
+                <ul className="space-y-1 text-sm text-neutral-600 dark:text-neutral-400">
+                  <li>🔐 Student Verification & Safety-first flows</li>
+                  <li>🧭 Familiar marketplace patterns with Berkeley branding</li>
+                  <li>🧪 Interviews & Think-aloud usability testing</li>
+                  <li>🗂️ Structured design document and presentation</li>
+                </ul>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <span className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs px-2 py-1 rounded">UX Design</span>
+                <span className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs px-2 py-1 rounded">User Research</span>
+                <span className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs px-2 py-1 rounded">Prototyping</span>
+                <span className="bg-pink-100 dark:bg-pink-900 text-pink-800 dark:text-pink-200 text-xs px-2 py-1 rounded">Figma</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
