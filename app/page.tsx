@@ -65,8 +65,8 @@ export default function Page() {
                   <div className="font-thin">Thiel Fellowship backed climate-tech startup focused on early prevention of hurricanes</div>
                 </div>
                 <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                  <li>Developed a script to ingest spending data and automate burn sheet creation.</li>
-                  <li>Building internal analytical tools to provide insights into spending and more.</li>
+                  <li>Developed a script that ingests spending data and automates burn sheet creation.</li>
+                  <li>Building internal analytical tools to provide insights into finances and more.</li>
                 </ul>
               </motion.div>
 
@@ -83,8 +83,9 @@ export default function Page() {
                   <div className="font-thin">SkyDeck-backed startup focused on becoming an online marketplace for the fresh produce industry</div>
                 </div>
                 <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                  <li>Cut base MAPE from ~25% to 6–7% on unseen data by building NeuralProphet pipelines with weather regressors and feature engineering.</li>
-                  <li>Built production ETL in Python/SQL: USDA + Meteostat ingestion, idempotent upserts to MySQL, aggregation tables, and a cleaned prices materialization with a versioned schema.</li>
+                  <li>Cut base mean average percentage error from ~25% to 6–7% on future produce prices by building NeuralProphet pipelines with weather regressors and feature engineering.
+                  </li>
+                  <li>Built production ETL in Python/SQL: USDA Produce Prices + Weather Data ingestion, idempotent upserts to MySQL, aggregation tables, and a cleaned prices materialization with a versioned schema.</li>
                 </ul>
               </motion.div>
 
