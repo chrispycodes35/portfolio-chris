@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion'
 import ParticleBackground from './components/particles'
 import FluidMotion, { StaggeredMotion, StaggeredItem } from './components/fluid-motion'
+import { FeaturedProjectCard } from './components/featured-project-card'
 
 export default function Page() {
   return (
@@ -34,14 +35,45 @@ export default function Page() {
         <StaggeredItem>
           <div>
             <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">EDUCATION & COURSEWORK</h2>
-            <div className="space-y-2">
-              <div className="font-semibold">University of California, Berkeley</div>
-              <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div>
-              <div className="font-medium">Double Major: B.A. Data Science, B.A. Cognitive Science</div>
-              <div className="text-sm text-neutral-600 dark:text-neutral-400">
+            <motion.div 
+              className="space-y-2"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, ease: "easeOut" }}
+            >
+              <motion.div 
+                className="font-semibold text-xl"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
+              >
+                University of California, Berkeley
+              </motion.div>
+              <motion.div 
+                className="text-neutral-600 dark:text-neutral-400"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+              >
+                Expected Graduation: May 2026
+              </motion.div>
+              <motion.div 
+                className="font-medium"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
+              >
+                Double Major: B.A. Data Science, B.A. Cognitive Science
+              </motion.div>
+              <motion.div 
+                className="text-sm text-neutral-600 dark:text-neutral-400"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
                 Relevant Coursework: Data Engineering, Artificial Intelligence, Data Structures & Algorithms, Principles & Techniques of Data Science, Probability for Data Science
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           </div>
         </StaggeredItem>
       </StaggeredMotion>
@@ -49,12 +81,18 @@ export default function Page() {
       {/* Work Experience */}
       <StaggeredMotion>
         <StaggeredItem>
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">WORK EXPERIENCE</h2>
             <div className="space-y-6">
               <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
                 whileHover={{ scale: 1.02, x: 5 }}
-                transition={{ duration: 0.2 }}
                 className="p-4 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors"
               >
                 <div className="flex justify-between items-start">
@@ -71,8 +109,10 @@ export default function Page() {
               </motion.div>
 
               <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
                 whileHover={{ scale: 1.02, x: 5 }}
-                transition={{ duration: 0.2 }}
                 className="p-4 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors"
               >
                 <div className="flex justify-between items-start">
@@ -90,8 +130,10 @@ export default function Page() {
               </motion.div>
 
               <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.5 }}
                 whileHover={{ scale: 1.02, x: 5 }}
-                transition={{ duration: 0.2 }}
                 className="p-4 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors"
               >
                 <div className="flex justify-between items-start">
@@ -108,198 +150,116 @@ export default function Page() {
                 </ul>
               </motion.div>
             </div>
-          </div>
+          </motion.div>
         </StaggeredItem>
       </StaggeredMotion>
 
       {/* Skills & Interests */}
       <StaggeredMotion>
         <StaggeredItem>
-          <div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">SKILLS & INTERESTS</h2>
             <motion.div 
               className="space-y-2 text-sm p-4 rounded-lg bg-gradient-to-r from-blue-50 to-purple-50 dark:from-blue-900/20 dark:to-purple-900/20"
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.2, duration: 0.5 }}
               whileHover={{ scale: 1.02 }}
-              transition={{ duration: 0.2 }}
             >
-              <p><span className="font-medium">Languages:</span> Python, JavaScript/TypeScript, Java, SQL</p>
-              <p><span className="font-medium">Frameworks/Tools:</span> React, Next.js, Node.js, Express, Flask, Tailwind, MySQL, PostgreSQL, MongoDB, Git, scikit-learn, Pandas, Firebase, Cloudinary</p>
-              <p><span className="font-medium">Visualization:</span> Matplotlib, Seaborn</p>
+              <motion.p
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.3, duration: 0.5 }}
+              >
+                <span className="font-medium">Languages:</span> Python, JavaScript/TypeScript, Java, SQL
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
+              >
+                <span className="font-medium">Frameworks/Tools:</span> React, Next.js, Node.js, Express, Flask, Tailwind, MySQL, PostgreSQL, MongoDB, Git, scikit-learn, Pandas, Firebase, Cloudinary
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.5, duration: 0.5 }}
+              >
+                <span className="font-medium">Visualization:</span> Matplotlib, Seaborn
+              </motion.p>
             </motion.div>
-          </div>
+          </motion.div>
         </StaggeredItem>
       </StaggeredMotion>
 
       {/* Featured Projects Section */}
       <StaggeredMotion>
         <StaggeredItem>
-          <div className="my-8">
+          <motion.div
+            className="my-8"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
             <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
             <div className="space-y-6">
-              {/* SpotVisit */}
-              <motion.div 
-                className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300"
-                whileHover={{ 
-                  scale: 1.02, 
-                  y: -5,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-                }}
-                whileTap={{ scale: 0.98 }}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.2, duration: 0.5 }}
               >
-                <div className="flex items-start justify-between">
-                  <div className="space-y-3 flex-1">
-                    <div className="flex items-center space-x-2">
-                      <h3 className="font-semibold text-xl">SpotVisit</h3>
-                      <motion.span 
-                        className="bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs px-2 py-1 rounded-full"
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                      >
-                        Full Stack
-                      </motion.span>
-                    </div>
-                    <p className="text-neutral-600 dark:text-neutral-400">
-                      Travel planning and spot organization platform with interactive maps, spot management, and trip planning capabilities.
-                    </p>
-                    <div className="flex flex-wrap gap-2 text-xs">
-                      {["Next.js", "React", "Maps API", "Geolocation"].map((tech, index) => (
-                        <motion.span 
-                          key={tech}
-                          className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded"
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          whileHover={{ scale: 1.1, backgroundColor: "#3b82f6", color: "white" }}
-                        >
-                          {tech}
-                        </motion.span>
-                      ))}
-                    </div>
-                  </div>
-                  <motion.a 
-                    href="https://explorer-blue-three.vercel.app" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
-                    whileHover={{ scale: 1.1, x: 5 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Live Demo →
-                  </motion.a>
-                </div>
+                <FeaturedProjectCard
+                  title="SpotVisit"
+                  category="Full Stack"
+                  description="Travel planning and spot organization platform with interactive maps, spot management, and trip planning capabilities."
+                  technologies={["Next.js", "React", "Maps API", "Geolocation"]}
+                  demoLink="https://explorer-blue-three.vercel.app"
+                  demoText="Live Demo →"
+                  index={0}
+                />
               </motion.div>
 
-              {/* Uncover */}
-              <motion.div 
-                className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300"
-                whileHover={{ 
-                  scale: 1.02, 
-                  y: -5,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-                }}
-                whileTap={{ scale: 0.98 }}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.4, duration: 0.5 }}
               >
-                <div className="flex items-start justify-between">
-                  <div className="space-y-3 flex-1">
-                    <div className="flex items-center space-x-2">
-                      <h3 className="font-semibold text-xl">Uncover</h3>
-                      <motion.span 
-                        className="bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs px-2 py-1 rounded-full"
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                      >
-                        AI/ML
-                      </motion.span>
-                    </div>
-                    <p className="text-neutral-600 dark:text-neutral-400">
-                      AI-powered cognitive analysis tool that helps understand thinking patterns through journaling and provides personalized insights.
-                    </p>
-                    <div className="flex flex-wrap gap-2 text-xs">
-                      {["AI Analysis", "NLP", "Cognitive Therapy", "UX Design"].map((tech, index) => (
-                        <motion.span 
-                          key={tech}
-                          className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded"
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          whileHover={{ scale: 1.1, backgroundColor: "#10b981", color: "white" }}
-                        >
-                          {tech}
-                        </motion.span>
-                      ))}
-                    </div>
-                  </div>
-                  <motion.a 
-                    href="https://uncover-25f167a1.base44.app" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
-                    whileHover={{ scale: 1.1, x: 5 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Live Demo →
-                  </motion.a>
-                </div>
+                <FeaturedProjectCard
+                  title="Uncover"
+                  category="AI/ML"
+                  description="AI-powered cognitive analysis tool that helps understand thinking patterns through journaling and provides personalized insights."
+                  technologies={["AI Analysis", "NLP", "Cognitive Therapy", "UX Design"]}
+                  demoLink="https://uncover-25f167a1.base44.app"
+                  demoText="Live Demo →"
+                  index={1}
+                />
               </motion.div>
 
-              {/* MusiCal */}
-              <motion.div 
-                className="border border-neutral-200 dark:border-neutral-700 rounded-lg p-6 hover:shadow-lg transition-all duration-300"
-                whileHover={{ 
-                  scale: 1.02, 
-                  y: -5,
-                  boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)"
-                }}
-                whileTap={{ scale: 0.98 }}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.6, duration: 0.5 }}
               >
-                <div className="flex items-start justify-between">
-                  <div className="space-y-3 flex-1">
-                    <div className="flex items-center space-x-2">
-                      <h3 className="font-semibold text-xl">MusiCal</h3>
-                      <motion.span 
-                        className="bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs px-2 py-1 rounded-full"
-                        whileHover={{ scale: 1.1 }}
-                        transition={{ type: "spring", stiffness: 400, damping: 10 }}
-                      >
-                        Full Stack
-                      </motion.span>
-                    </div>
-                    <p className="text-neutral-600 dark:text-neutral-400">
-                      Full-stack music discovery web app with Spotify API integration, user authentication, and personalized experiences.
-                    </p>
-                    <div className="flex flex-wrap gap-2 text-xs">
-                      {["Python", "Flask", "React", "Spotify API", "Firebase"].map((tech, index) => (
-                        <motion.span 
-                          key={tech}
-                          className="bg-gray-100 dark:bg-gray-800 px-2 py-1 rounded"
-                          initial={{ opacity: 0, scale: 0.8 }}
-                          animate={{ opacity: 1, scale: 1 }}
-                          transition={{ delay: index * 0.1 }}
-                          whileHover={{ scale: 1.1, backgroundColor: "#8b5cf6", color: "white" }}
-                        >
-                          {tech}
-                        </motion.span>
-                      ))}
-                    </div>
-                  </div>
-                  <motion.a 
-                    href="https://www.loom.com/share/35a9dfa14eb94efd806c78ab41f2abc7?sid=29d69594-7328-4961-9182-aebb653bb04a" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-blue-600 dark:text-blue-400 hover:underline font-medium ml-4"
-                    whileHover={{ scale: 1.1, x: 5 }}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    Video Demo →
-                  </motion.a>
-                </div>
+                <FeaturedProjectCard
+                  title="MusiCal"
+                  category="Full Stack"
+                  description="Full-stack music discovery web app with Spotify API integration, user authentication, and personalized experiences."
+                  technologies={["Python", "Flask", "React", "Spotify API", "Firebase"]}
+                  demoLink="https://www.loom.com/share/35a9dfa14eb94efd806c78ab41f2abc7?sid=29d69594-7328-4961-9182-aebb653bb04a"
+                  demoText="Video Demo →"
+                  index={2}
+                />
               </motion.div>
               
               <motion.div 
                 className="text-center pt-4"
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.5 }}
+                transition={{ delay: 0.8, duration: 0.5 }}
               >
                 <motion.a 
                   href="/projects" 
@@ -311,7 +271,7 @@ export default function Page() {
                 </motion.a>
               </motion.div>
             </div>
-          </div>
+          </motion.div>
         </StaggeredItem>
       </StaggeredMotion>
     </section>
