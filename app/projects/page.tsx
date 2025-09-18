@@ -114,7 +114,7 @@ export default function Page() {
 
       {/* Data Engineering & Analysis */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-orange-600 dark:text-orange-400">
+        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-purple-600 dark:text-purple-400">
           📊 Data Engineering & Analysis
         </h2>
         
