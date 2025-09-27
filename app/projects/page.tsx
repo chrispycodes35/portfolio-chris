@@ -51,6 +51,24 @@ export default function Page() {
             ]}
             index={1}
           />
+
+          <FeaturedProjectCard
+            title="Tele-Rehab"
+            category="Full Stack"
+            description="Healthcare-focused web application with comprehensive performance optimization, type safety, and accessibility compliance."
+            technologies={["Next.js 15", "TypeScript", "React", "Vercel", "WCAG 2.1"]}
+            demoLink="https://tele-rehab-proto.vercel.app/"
+            demoText="Live Demo →"
+            keyFeatures={[
+              "⚡ 100% Lighthouse Performance Score",
+              "🔒 100% TypeScript Coverage with Strict Type Checking",
+              "📱 Seamless Responsive Design Across All Devices",
+              "♿ WCAG 2.1 Compliant Components",
+              "🚀 Production Ready with Zero Build Errors"
+            ]}
+            featuresTitle="Technical Achievements:"
+            index={11}
+          />
         </div>
       </div>
 
@@ -75,7 +93,7 @@ export default function Page() {
               "📊 Progress Tracking"
             ]}
             featuresTitle="Core Features:"
-            index={2}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -91,7 +109,7 @@ export default function Page() {
               "📊 89% Training Accuracy",
               "📉 PCA Dimensionality Reduction"
             ]}
-            index={3}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -107,7 +125,7 @@ export default function Page() {
               "⚡ Autograd & Tensors",
               "📊 Model Building Abstractions"
             ]}
-            index={4}
+            index={11}
           />
         </div>
       </div>
@@ -132,7 +150,7 @@ export default function Page() {
               "📊 Data Aggregation & Ranking",
               "👥 Actor Role Analysis"
             ]}
-            index={5}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -148,7 +166,7 @@ export default function Page() {
               "📊 >90% Classification Accuracy",
               "⚙️ Hyperparameter Tuning"
             ]}
-            index={6}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -164,7 +182,7 @@ export default function Page() {
               "📊 Data Visualizations",
               "🔍 Socioeconomic Analysis"
             ]}
-            index={7}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -180,7 +198,7 @@ export default function Page() {
               "🔍 Hyponym Analysis",
               "📊 Data Visualization"
             ]}
-            index={8}
+            index={11}
           />
         </div>
       </div>
@@ -205,7 +223,7 @@ export default function Page() {
               "🔧 Frontend Development",
               "📋 Agile Development"
             ]}
-            index={9}
+            index={11}
           />
 
           <FeaturedProjectCard
@@ -222,7 +240,7 @@ export default function Page() {
               "🗂️ Structured design document and presentation"
             ]}
             featuresTitle="Highlights:"
-            index={10}
+            index={11}
           />
         </div>
       </div>
