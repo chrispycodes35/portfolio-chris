@@ -20,6 +20,23 @@ export default function Page() {
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+        <FeaturedProjectCard
+            title="Tele-Rehab"
+            category="Full Stack"
+            description="Telehealth web app for therapists to manage patients, exercise history, and schedules—built around a role-based workflow with a calendar-first UX."
+            technologies={["Next.js", "TypeScript", "React", "React Big Calendar", "Tailwind", "Vercel"]}
+            demoLink="https://tele-rehab-proto.vercel.app/"
+            demoText="Live Demo →"
+            keyFeatures={[
+              "👩‍⚕️ Therapist Workflow — Login, patient list, and individual patient profiles",
+              "📆 Calendar-First UX — React Big Calendar with add/edit/delete of sessions & home exercises",
+              "🧾 Exercise History — Per-patient timeline of assigned exercises and completion notes",
+              "🔎 Filtering & Status — Quickly view upcoming sessions, completed tasks, and no-shows",
+              "♿ Accessibility — Keyboard navigation, focus states, and color-contrast checks",
+              "🚀 Production-ready scaffold — Strict TypeScript, clean routing, deployed on Vercel"
+            ]}
+            index={0}
+          />
           <FeaturedProjectCard
             title="SpotVisit"
             category="Full Stack"
@@ -33,7 +50,7 @@ export default function Page() {
               "➕ Add New Spots - Geolocation, photos, and notes",
               "✈️ Trip Planning - Create itineraries and share"
             ]}
-            index={0}
+            index={2}
           />
 
           <FeaturedProjectCard
@@ -52,23 +69,6 @@ export default function Page() {
             index={1}
           />
 
-          <FeaturedProjectCard
-            title="Tele-Rehab"
-            category="Full Stack"
-            description="Healthcare-focused web application with comprehensive performance optimization, type safety, and accessibility compliance."
-            technologies={["Next.js 15", "TypeScript", "React", "Vercel", "WCAG 2.1"]}
-            demoLink="https://tele-rehab-proto.vercel.app/"
-            demoText="Live Demo →"
-            keyFeatures={[
-              "⚡ 100% Lighthouse Performance Score",
-              "🔒 100% TypeScript Coverage with Strict Type Checking",
-              "📱 Seamless Responsive Design Across All Devices",
-              "♿ WCAG 2.1 Compliant Components",
-              "🚀 Production Ready with Zero Build Errors"
-            ]}
-            featuresTitle="Technical Achievements:"
-            index={11}
-          />
         </div>
       </div>
 
@@ -92,7 +92,7 @@ export default function Page() {
               "💡 Actionable Insights",
               "📊 Progress Tracking"
             ]}
-            featuresTitle="Core Features:"
+            featuresTitle="Key Features:"
             index={11}
           />
 
@@ -239,7 +239,7 @@ export default function Page() {
               "🧪 Interviews & Think-aloud usability testing",
               "🗂️ Structured design document and presentation"
             ]}
-            featuresTitle="Highlights:"
+            featuresTitle="Key Features:"
             index={11}
           />
         </div>
