@@ -32,8 +32,6 @@ export default function Page() {
               "📆 Calendar-First UX — React Big Calendar with add/edit/delete of sessions & home exercises",
               "🧾 Exercise History — Per-patient timeline of assigned exercises and completion notes",
               "🔎 Filtering & Status — Quickly view upcoming sessions, completed tasks, and no-shows",
-              "♿ Accessibility — Keyboard navigation, focus states, and color-contrast checks",
-              "🚀 Production-ready scaffold — Strict TypeScript, clean routing, deployed on Vercel"
             ]}
             index={0}
           />

@@ -53,6 +53,9 @@ importers:
       next-mdx-remote:
         specifier: ^4.4.1
         version: 4.4.1(react-dom@18.2.0(react@18.2.0))(react@18.2.0)
+      portfolio-chris:
+        specifier: 'link:'
+        version: 'link:'
       postcss:
         specifier: ^8.4.35
         version: 8.5.6

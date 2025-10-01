@@ -46,11 +46,11 @@ export default function Page() {
             <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">EDUCATION & COURSEWORK</h2>
             <div className="space-y-2">
               <div className="font-semibold text-xl">University of California, Berkeley</div>
-              <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div>
-              <div className="font-medium">Double Major: B.A. Data Science, B.A. Cognitive Science</div>
-              <div className="text-sm text-neutral-600 dark:text-neutral-400">
+              {/* <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div> */}
+              <div className=" text-neutral-600 dark:text-neutral-400">Double Major: B.A. Data Science, B.A. Cognitive Science</div>
+              {/* <div className="text-sm text-neutral-600 dark:text-neutral-400">
                 Relevant Coursework: Data Engineering, Artificial Intelligence, Data Structures & Algorithms, Principles & Techniques of Data Science, Probability for Data Science
-              </div>
+              </div> */}
             </div>
           </motion.div>
         </StaggeredItem>
