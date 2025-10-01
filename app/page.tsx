@@ -47,7 +47,7 @@ export default function Page() {
             <div className="space-y-2">
               <div className="font-semibold text-xl">University of California, Berkeley</div>
               {/* <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div> */}
-              <div className=" text-neutral-600 dark:text-neutral-400">Double Major: B.A. Data Science, B.A. Cognitive Science</div>
+              <div className=" text-neutral-600 dark:text-neutral-400">Majors: B.A. Data Science, B.A. Cognitive Science</div>
               {/* <div className="text-sm text-neutral-600 dark:text-neutral-400">
                 Relevant Coursework: Data Engineering, Artificial Intelligence, Data Structures & Algorithms, Principles & Techniques of Data Science, Probability for Data Science
               </div> */}
