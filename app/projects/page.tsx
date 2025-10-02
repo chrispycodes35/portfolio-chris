@@ -15,8 +15,8 @@ export default function Page() {
       
       {/* Full Stack Development */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-blue-600 dark:text-blue-400">
-          🚀 Full Stack Development
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-blue-600 dark:text-blue-400 bg-blue-50 dark:bg-blue-950/30 px-4 py-3 rounded-lg">
+          Full Stack Development
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
@@ -69,8 +69,8 @@ export default function Page() {
 
       {/* Machine Learning & AI */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-green-600 dark:text-green-400">
-          🤖 Machine Learning & AI
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-950/30 px-4 py-3 rounded-lg">
+          Machine Learning & AI
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
@@ -127,8 +127,8 @@ export default function Page() {
 
       {/* Data Engineering & Analysis */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-purple-600 dark:text-purple-400">
-          📊 Data Engineering & Analysis
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-purple-600 dark:text-purple-400 bg-purple-50 dark:bg-purple-950/30 px-4 py-3 rounded-lg">
+          Data Engineering & Analysis
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
@@ -200,8 +200,8 @@ export default function Page() {
 
       {/* Design & UX */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-pink-600 dark:text-pink-400">
-          🎨 Design & UX
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-pink-600 dark:text-pink-400 bg-pink-50 dark:bg-pink-950/30 px-4 py-3 rounded-lg">
+          Design & UX
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
