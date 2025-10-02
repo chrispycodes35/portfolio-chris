@@ -12,7 +12,7 @@ export default function Page() {
       <ParticleBackground />
       
       {/* Main Content */}
-      <section className="relative z-20 space-y-8 p-6">
+      <section className="relative z-20 space-y-8 p-2 md:p-4">
         {/* Header */}
           <div className="space-y-4">
             <motion.h1 
@@ -43,7 +43,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">EDUCATION & COURSEWORK</h2>
+            <h2 className="text-2xl font-semibold mb-4 border-b-2 border-neutral-200 dark:border-neutral-700 pb-2">EDUCATION & COURSEWORK</h2>
             <div className="space-y-2">
               <div className="font-semibold text-xl">University of California, Berkeley</div>
               {/* <div className="text-neutral-600 dark:text-neutral-400">Expected Graduation: May 2026</div> */}
@@ -64,7 +64,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">WORK EXPERIENCE</h2>
+            <h2 className="text-2xl font-semibold mb-4 border-b-2 border-neutral-200 dark:border-neutral-700 pb-2">WORK EXPERIENCE</h2>
             <div className="space-y-6">
               <motion.div
                 whileHover={{ scale: 1.02, x: 5 }}
@@ -124,7 +124,7 @@ export default function Page() {
       </StaggeredMotion>
 
       {/* Skills & Interests */}
-            <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">SKILLS & INTERESTS</h2>
+            <h2 className="text-2xl font-semibold mb-4 border-b-2 border-neutral-200 dark:border-neutral-700 pb-2">SKILLS & INTERESTS</h2>
             <motion.div
                 whileHover={{ scale: 1.02, x: 5 }}
                 className="p-4 rounded-lg hover:bg-neutral-50 dark:hover:bg-neutral-800/50 transition-colors"
@@ -142,7 +142,7 @@ export default function Page() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
           >
-            <h2 className="text-2xl font-semibold mb-4 border-b border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
+            <h2 className="text-2xl font-semibold mb-4 border-b-2 border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
             <div className="space-y-6">
               <FeaturedProjectCard
                 title="SpotVisit"

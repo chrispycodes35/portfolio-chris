@@ -15,7 +15,7 @@ export default function Page() {
       
       {/* Full Stack Development */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-blue-600 dark:text-blue-400">
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-blue-600 dark:text-blue-400">
           🚀 Full Stack Development
         </h2>
         
@@ -72,7 +72,7 @@ export default function Page() {
 
       {/* Machine Learning & AI */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-green-600 dark:text-green-400">
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-green-600 dark:text-green-400">
           🤖 Machine Learning & AI
         </h2>
         
@@ -130,7 +130,7 @@ export default function Page() {
 
       {/* Data Engineering & Analysis */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-purple-600 dark:text-purple-400">
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-purple-600 dark:text-purple-400">
           📊 Data Engineering & Analysis
         </h2>
         
@@ -203,7 +203,7 @@ export default function Page() {
 
       {/* Design & UX */}
       <div className="space-y-6">
-        <h2 className="text-2xl font-semibold border-b border-neutral-200 dark:border-neutral-700 pb-2 text-pink-600 dark:text-pink-400">
+        <h2 className="text-2xl font-semibold border-b-2 border-neutral-200 dark:border-neutral-700 pb-2 text-pink-600 dark:text-pink-400">
           🎨 Design & UX
         </h2>
         

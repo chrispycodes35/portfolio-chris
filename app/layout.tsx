@@ -54,10 +54,10 @@ export default function RootLayout({
       suppressHydrationWarning={true}
     >
       <body 
-        className="antialiased max-w-xl mx-4 mt-8 lg:mx-auto"
+        className="antialiased max-w-6xl mx-2 mt-8 lg:mx-auto"
         suppressHydrationWarning={true}
       >
-        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-0">
+        <main className="flex-auto min-w-0 mt-6 flex flex-col px-2 md:px-4">
           <Navbar />
           {children}
           <Footer />
