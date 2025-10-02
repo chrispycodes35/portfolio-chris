@@ -28,10 +28,9 @@ export default function Page() {
             demoLink="https://tele-rehab-proto.vercel.app/"
             demoText="Live Demo →"
             keyFeatures={[
-              "👩‍⚕️ Therapist Workflow — Login, patient list, and individual patient profiles",
-              "📆 Calendar-First UX — React Big Calendar with add/edit/delete of sessions & home exercises",
-              "🧾 Exercise History — Per-patient timeline of assigned exercises and completion notes",
-              "🔎 Filtering & Status — Quickly view upcoming sessions, completed tasks, and no-shows",
+              "👩‍⚕️ Physical Therapist Workflow — Login, patient list, and individual patient profiles",
+              "📆 Calendar-First UX — React Big Calendar with simulated physical therapist appointments retrieval",
+              "🧾 Exercise History — Per-patient progress tracking of assigned exercises and additional notes",
             ]}
             index={0}
           />
@@ -46,7 +45,6 @@ export default function Page() {
               "🗺️ Interactive Map - Visualize all your saved spots",
               "📍 Spot Management - Organize and categorize places",
               "➕ Add New Spots - Geolocation, photos, and notes",
-              "✈️ Trip Planning - Create itineraries and share"
             ]}
             index={2}
           />
@@ -62,7 +60,6 @@ export default function Page() {
               "🎵 Music Discovery - Find new artists and tracks",
               "🔐 User Authentication - Secure user sessions",
               "📱 Responsive Design - Works on all devices",
-              "🎨 Modern UI/UX - Beautiful, intuitive interface"
             ]}
             index={1}
           />
