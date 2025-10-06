@@ -2,7 +2,7 @@
 
 ## About
 
-Hi, I'm a Data Science & Cognitive Science student at UC Berkeley, expected to graduate in May 2026.
+Hi, I'm a Data Science & Cognitive Science student at UC Berkeley.
 
 ## Technologies Used
 
