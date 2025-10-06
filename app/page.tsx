@@ -159,7 +159,7 @@ export default function Page() {
                 category="AI/ML"
                 description="AI-powered cognitive analysis tool that helps understand thinking patterns through journaling and provides personalized insights."
                 technologies={["AI Analysis", "NLP", "Cognitive Therapy", "UX Design"]}
-                demoLink="https://uncover-25f167a1.base44.app"
+                demoLink="https://thoughtpatterns.vercel.app/"
                 demoText="Live Demo →"
                 index={1}
               />
