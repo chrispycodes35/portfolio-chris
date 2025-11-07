@@ -21,6 +21,22 @@ export default function Page() {
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
         <FeaturedProjectCard
+            title="Globe Mates"
+            category="Full Stack"
+            description="Full-stack study-abroad platform connecting students across 56+ location/program-based groups in 7 cities. Features matching algorithm, real-time chat, and personalized dashboards."
+            technologies={["React", "TypeScript", "Node.js/Express", "Firebase"]}
+            demoLink="https://globemates.lovable.app/"
+            demoText="Live Demo →"
+            keyFeatures={[
+              "🌍 56+ Location/Program Groups — Manage groups across 7 cities",
+              "🔍 Matching Algorithm — Filter groups by user profile",
+              "💬 Real-time Chat — Firebase-powered messaging",
+              "📱 Custom Onboarding — Status, school, program, destination flow",
+              "🎯 Personalized Dashboard — City-specific events and content",
+            ]}
+            index={0}
+          />
+        <FeaturedProjectCard
             title="Tele-Rehab"
             category="Full Stack"
             description="Telehealth web app for therapists to manage patients, exercise history, and schedules—built around a role-based workflow with a calendar-first UX."
@@ -32,7 +48,7 @@ export default function Page() {
               "📆 Calendar-First UX — React Big Calendar with simulated physical therapist appointments retrieval",
               "🧾 Exercise History — Per-patient progress tracking of assigned exercises and additional notes",
             ]}
-            index={0}
+            index={1}
           />
           <FeaturedProjectCard
             title="SpotVisit"
@@ -46,7 +62,7 @@ export default function Page() {
               "📍 Spot Management - Organize and categorize places",
               "➕ Add New Spots - Geolocation, photos, and notes",
             ]}
-            index={2}
+            index={3}
           />
 
           <FeaturedProjectCard
@@ -61,7 +77,7 @@ export default function Page() {
               "🔐 User Authentication - Secure user sessions",
               "📱 Responsive Design - Works on all devices",
             ]}
-            index={1}
+            index={4}
           />
 
         </div>
@@ -132,6 +148,22 @@ export default function Page() {
         </h2>
         
         <div className="grid gap-6 md:grid-cols-1 lg:grid-cols-2">
+          <FeaturedProjectCard
+            title="Query Performance & Tuning (Lahman Baseball DB)"
+            category="Data Science"
+            description="PostgreSQL performance optimization project using EXPLAIN (ANALYZE, BUFFERS) to compare join strategies, implement indexing, clustering, and materialized views for the Lahman Baseball database."
+            technologies={["PostgreSQL", "Query Optimization", "Indexing", "Materialized Views"]}
+            demoLink="#"
+            demoText=""
+            keyFeatures={[
+              "⚡ Join Strategy Analysis — Compared hash vs merge joins with EXPLAIN (ANALYZE, BUFFERS)",
+              "📊 Query Optimization — Applied projection/predicate pushdown and composite indexes",
+              "🗂️ Clustering — Clustered tables on hot filters for improved performance",
+              "💾 Materialized Views — Created with documented refresh trade-offs",
+              "🧹 Data Cleaning — String manipulation and table setup for analysis"
+            ]}
+            index={5}
+          />
           <FeaturedProjectCard
             title="IMDB Analysis Project"
             category="Data Science"

@@ -145,13 +145,23 @@ export default function Page() {
             <h2 className="text-2xl font-semibold mb-4 border-b-2 border-neutral-200 dark:border-neutral-700 pb-2">FEATURED PROJECTS</h2>
             <div className="space-y-6">
               <FeaturedProjectCard
+                title="Globe Mates"
+                category="Full Stack"
+                description="Full-stack study-abroad platform connecting students across 56+ location/program-based groups in 7 cities. Features matching algorithm, real-time chat, and personalized dashboards."
+                technologies={["React", "TypeScript", "Node.js/Express", "Firebase"]}
+                demoLink="https://globemates.lovable.app/"
+                demoText="Live Demo →"
+                index={0}
+              />
+
+              <FeaturedProjectCard
                 title="SpotVisit"
                 category="Full Stack"
                 description="Travel planning and spot organization platform with interactive maps, spot management, and trip planning capabilities."
                 technologies={["Next.js", "React", "Maps API", "Geolocation"]}
                 demoLink="https://explorer-blue-three.vercel.app"
                 demoText="Live Demo →"
-                index={0}
+                index={1}
               />
 
               <FeaturedProjectCard
@@ -161,7 +171,7 @@ export default function Page() {
                 technologies={["AI Analysis", "NLP", "Cognitive Therapy", "UX Design"]}
                 demoLink="https://thoughtpatterns.vercel.app/"
                 demoText="Live Demo →"
-                index={1}
+                index={2}
               />
 
               <FeaturedProjectCard
@@ -171,7 +181,7 @@ export default function Page() {
                 technologies={["Python", "Flask", "React", "Spotify API", "Firebase"]}
                 demoLink="https://www.loom.com/share/35a9dfa14eb94efd806c78ab41f2abc7?sid=29d69594-7328-4961-9182-aebb653bb04a"
                 demoText="Video Demo →"
-                index={2}
+                index={3}
               />
               
               <motion.div 
