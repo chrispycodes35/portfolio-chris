@@ -25,7 +25,7 @@ export default function Page() {
             category="Full Stack"
             description="Full-stack study-abroad platform connecting students across 56+ location/program-based groups in 7 cities. Features matching algorithm, real-time chat, and personalized dashboards."
             technologies={["React", "TypeScript", "Node.js/Express", "Firebase"]}
-            demoLink="https://globemates.lovable.app/"
+            demoLink="https://globe-mates.vercel.app/"
             demoText="Live Demo →"
             keyFeatures={[
               "🌍 56+ Location/Program Groups — Manage groups across 7 cities",
