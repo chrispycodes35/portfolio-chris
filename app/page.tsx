@@ -78,8 +78,8 @@ export default function Page() {
                   <div className="font-thin">Thiel Fellowship backed climate-tech startup focused on early prevention of hurricanes</div>
                 </div>
                 <ul className="list-disc list-inside mt-2 space-y-1 text-sm">
-                  <li>Developed a script that ingests spending data and automates burn sheet creation.</li>
-                  <li>Building internal analytical tools to provide insights into finances and more.</li>
+                  <li>Built an automated reporting pipeline to ingest payroll/vendor CSVs with Pandas → normalized columns, validated types, and produced clean tables for analytics.</li>
+                  <li>Prototyping internal spend dashboards that surface burn rate and category trends</li>
                 </ul>
               </motion.div>
 
